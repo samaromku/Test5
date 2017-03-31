@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Test5</string>
+    <string name="test1">Тест 1</string>
+    <string name="test2">тест 2</string>
+    <string name="test3">тест 3</string>
+    <string name="test4">тест 4</string>
+    <string name="test5">тест 5</string>
+    <string name="add_edit_text">Добавить поле ввода</string>
+    <string name="get_data">Получить прогноз погоды</string>
+    <string name="temp">Температура:</string>
+    <string name="wet">Влажность:</string>
+    <string name="pressure">Давление:</string>
+    <string name="vector">Направление ветра:</string>
+    <string name="windPower">Сила ветра:</string>
+    <string name="clouds">Облачность:</string>
+</resources>

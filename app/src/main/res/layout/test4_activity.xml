@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temp"
+        android:id="@+id/temp"/>
+
+    <TextView
+        android:layout_toEndOf="@+id/temp"
+        android:layout_toRightOf="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getTemp"
+         />
+
+
+    <TextView
+        android:layout_below="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wet"
+        android:id="@+id/humidity"/>
+
+    <TextView
+        android:layout_below="@+id/temp"
+        android:layout_toEndOf="@+id/humidity"
+        android:layout_toRightOf="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getHumidity"
+         />
+
+
+    <TextView
+        android:layout_below="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pressure"
+        android:id="@+id/pressure"/>
+
+    <TextView
+        android:layout_below="@+id/humidity"
+        android:layout_toEndOf="@+id/pressure"
+        android:layout_toRightOf="@+id/pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getPressure"
+         />
+
+
+    <TextView
+        android:layout_below="@+id/pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vector"
+        android:id="@+id/vector"/>
+
+    <TextView
+        android:layout_below="@+id/pressure"
+        android:layout_toEndOf="@+id/vector"
+        android:layout_toRightOf="@+id/vector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getVector"
+         />
+
+    <TextView
+        android:layout_below="@+id/vector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/windPower"
+        android:id="@+id/windPower"/>
+
+    <TextView
+        android:layout_below="@+id/vector"
+        android:layout_toEndOf="@+id/windPower"
+        android:layout_toRightOf="@+id/windPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getWindPower"
+         />
+
+    <TextView
+        android:layout_below="@+id/windPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clouds"
+        android:id="@+id/clouds"/>
+
+    <TextView
+        android:layout_below="@+id/windPower"
+        android:layout_toEndOf="@+id/clouds"
+        android:layout_toRightOf="@+id/clouds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getClouds"
+         />
+
+
+    <Button
+        android:layout_below="@+id/clouds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_data"
+        android:id="@+id/get_data"/>
+
+</RelativeLayout>
